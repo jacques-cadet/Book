@@ -1,6 +1,5 @@
 var service = "http://127.0.0.1:8000/router/entry/";
 var trHTML = '';
-var srch = '';
 var node = 0;
 
 
