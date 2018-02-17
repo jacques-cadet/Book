@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Exo');
+body{
+  margin-top: 6%;
+  font-family: 'Exo', sans-serif;
+  background: #025;
+  text-shadow: 2px 5px 15px #222;
+  color: #eee;
+  
+}
+
+@media (max-width: 768px) {
+  #searchdiv{
+    padding-top: 5px;
+  }
+}
+
+/*Bootstrap overides*/
+.form-control{
+  box-shadow: 2px 5px 15px #222;
+}
+
+.btn-primary,
+.btn-primary.active.focus, 
+.btn-primary.active:focus, 
+.btn-primary.active:hover, 
+.btn-primary:active.focus, 
+.btn-primary:active:focus, 
+.btn-primary:active:hover, 
+.open>.dropdown-toggle.btn-primary.focus, 
+.open>.dropdown-toggle.btn-primary:focus, 
+.open>.dropdown-toggle.btn-primary:hover{
+  box-shadow: 2px 5px 15px #222;
+}
