@@ -31,7 +31,7 @@ supporting [12 Factor Apps](https://12factor.net/).
 ## Usage ##
 - Clone or download the repo.
 - Create virtualenv.
-- Use pip to install all requirements in requirements.txt.
+- Use `pip install -r requirements.txt` to install requirements in requirements.txt.
 - Create a .env file from the example.env file in source directory 
 of the project.
 - Edit your .env file to include your own environment values for secret keys,
