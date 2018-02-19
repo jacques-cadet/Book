@@ -100,7 +100,7 @@ function getAppointments() {
 
         tableData = tableRow[index].getElementsByTagName("td")[2];
 
-        // If the table has data
+        // If the tableRow has data
         if (tableData) {
 
           // For casesensitive search remove toUpperCase
