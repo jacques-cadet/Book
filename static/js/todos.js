@@ -78,8 +78,8 @@ function getAppointments() {
 
           if (hour == 0){
             hour = 12;
+          
           }
-
           // If min == 00, don't show
           if (min == 00) {
             return  hour + ' ' + am_pm;
