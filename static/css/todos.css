@@ -20,6 +20,10 @@ table{
 
 }
 
+#hideTableButton{
+  float: right;
+}
+
 /*Bootstrap overides*/
 .form-control{
   box-shadow: 2px 5px 15px #000;
