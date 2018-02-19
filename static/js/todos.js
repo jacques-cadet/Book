@@ -53,9 +53,9 @@ function getAppointments() {
           var am_pm;
 
           //If the hour is passed 11 show pm else am
-          if(hour > 11){
+          if (hour > 11) {
             am_pm = "pm";
-          }else{
+          } else {
             am_pm = "am";
           }
 
@@ -65,21 +65,21 @@ function getAppointments() {
           }
 
           // If the hour is 13 or more subtract 12. 17:30 to 5:30
-          if (hour >= 13){
+          if (hour >= 13) {
             hour -= 12;
           }
 
           // noon or midnight
           if (min == 00 && hour == 12) {
               return 'noon';
-          }else if (min == 00 && hour == 0) {
+          } else if (min == 00 && hour == 0) {
               return 'midnight';
           }
 
-          if (hour == 0){
+          if (hour == 0) {
             hour = 12;
-          
           }
+
           // If min == 00, don't show
           if (min == 00) {
             return  hour + ' ' + am_pm;
@@ -88,9 +88,10 @@ function getAppointments() {
           return  hour + ':' + min + ' ' + am_pm;
         }
 
-        date = formatDate()
-        time = formatTime()
-        description = data[index].description
+        date = formatDate();
+        time = formatTime();
+        description = data[index].description;
+
         trHTML += '<tr><td>' + date + '</td><td>' + time + 
         '</td><td>' + description + '</td></tr>';
 
@@ -105,7 +106,7 @@ function getAppointments() {
     search = 1; 
   } 
 
-  if(search) {
+  if (search) {
 
     $("#search").click(function() {
 
@@ -126,14 +127,14 @@ function getAppointments() {
 
           // For case-sensitive search remove toUpperCase
           if (tableData.innerHTML.toUpperCase().search(filter) > -1) {
-
             tableRow[index].style.display = "";
           } else {
             tableRow[index].style.display = "none";
           }
+
         }
       }
-    })
+    });
   }
 };
 
@@ -143,18 +144,17 @@ $(document).ready(function() {
   $('#search').click(getAppointments);
   $("#table").hide();
   $("#form").hide();
-  $("#new").show();
-  $("#cancel").hide();
+  // $("#new").show();/
+
   $("#new").click(function() {
     $("#new").hide();
     $("#form").show();
-    $("#cancel").show();
     $("#add").show();
   });
+
   $("#cancel").click(function() {
     $("#add").hide();
     $("#form").hide();
-    $("#cancel").hide();
     $("#new").show();
   });
 });

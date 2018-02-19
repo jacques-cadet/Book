@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Exo');
+
 body{
-  margin-top: 6%;
   font-family: 'Exo', sans-serif;
   background: #025;
-  text-shadow: 2px 5px 15px #222;
+  text-shadow: 2px 5px 15px #000;
   color: #eee;
-  
 }
 
 @media (max-width: 768px) {
@@ -14,9 +13,16 @@ body{
   }
 }
 
+table{
+  box-sizing: border-box;
+  padding: 5px;
+  margin-top: 15px;
+
+}
+
 /*Bootstrap overides*/
 .form-control{
-  box-shadow: 2px 5px 15px #222;
+  box-shadow: 2px 5px 15px #000;
 }
 
 .btn-primary,
