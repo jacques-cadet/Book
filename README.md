@@ -18,7 +18,7 @@ This app is being maintained by Jacques Cadet.
 - pytz 2018.3
 - requests 2.18.4
 - uritemplate 3.0.0
-- urllib3 1.22
+- urllib3 1.23
 - idna 2.6
 - itypes 1.1.0
 - Jinja2 2.10
