@@ -4,7 +4,7 @@ This app is being maintained by Jacques Cadet.
 
 ## Requirements ##
 - Python 3.5+
-- Django 2.0.2 - Base web framework
+- Django 2.0.8 - Base web framework
 - dj-database-url 0.4.2 - Parse database connections from 12-factor style URLs 
 - python-dotenv 0.7.1 - Parse environment variables from .env files
 - django-crispy-forms 1.7.0 - Adds bootstrap input styling to forms.
@@ -16,7 +16,7 @@ This app is being maintained by Jacques Cadet.
 - coreapi 2.3.3
 - coreschema 0.0.4
 - pytz 2018.3
-- requests 2.18.4
+- requests 2.20.0
 - uritemplate 3.0.0
 - urllib3 1.23
 - idna 2.6
