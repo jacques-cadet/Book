@@ -10,7 +10,7 @@ django-filter==1.1.0
 djangorestframework
 idna==2.6
 itypes==1.1.0
-Jinja2==2.10
+Jinja2
 Markdown==2.6.11
 MarkupSafe==1.0
 python-dotenv==0.7.1
