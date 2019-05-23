@@ -4,26 +4,26 @@ This app is being maintained by Jacques Cadet.
 
 ## Requirements ##
 - Python 3.5+
-- Django 2.0.8 - Base web framework
-- dj-database-url 0.4.2 - Parse database connections from 12-factor style URLs 
-- python-dotenv 0.7.1 - Parse environment variables from .env files
-- django-crispy-forms 1.7.0 - Adds bootstrap input styling to forms.
-- djangorestframework 3.7.7
+- Django - Base web framework
+- dj-database-url - Parse database connections from 12-factor style URLs 
+- python-dotenv - Parse environment variables from .env files
+- django-crispy-forms - Adds bootstrap input styling to forms.
+- djangorestframework
 - django-filter 1.1.0
 - certifi 2018.1.18
 - chardet 3.0.4
 - click 6.7
-- coreapi 2.3.3
-- coreschema 0.0.4
-- pytz 2018.3
+- coreapi
+- coreschema 
+- pytz
 - requests 2.20.0
 - uritemplate 3.0.0
-- urllib3 1.23
+- urllib3 
 - idna 2.6
 - itypes 1.1.0
-- Jinja2 2.10
-- Markdown 2.6.11
-- MarkupSafe 1.0
+- Jinja2 
+- Markdown 
+- MarkupSafe
 
 NOTE: Book is designed to be used on any platform
 supporting [12 Factor Apps](https://12factor.net/).
